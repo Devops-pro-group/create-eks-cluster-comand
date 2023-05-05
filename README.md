@@ -2,7 +2,7 @@
 #Create Eks cluster via command line 
 # How to create EKS cluster via command line 
 # I - Follow these steps =====>
-# 1 Install ekscl 
+# 1 Install eksctl 
     choco install -y eksctl
 # 2 To create a cluster run this :This command will create a Kubernetes cluster in the us-east-1 region with four t2.micro worker nodes. It might take several minutes to complete. 
 
