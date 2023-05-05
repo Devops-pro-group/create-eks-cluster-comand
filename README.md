@@ -8,7 +8,7 @@
 
       eksctl create cluster --name ikeitalab-cluster --region us-east-1--nodes 4 --node-type t2.micro
 # 3  Wait for 5 to 6 minutes for your cluster to be ready and run the following commands 
-    aws eks update-kubeconfig --region us-east-1 --name  ikeitalab-cluste
+    aws eks update-kubeconfig --region us-east-1 --name  ikeitalab-cluster
     kubectl get nodes 
 # 4 Delete the cluster using command line
     # Delete first your nodegroup 
